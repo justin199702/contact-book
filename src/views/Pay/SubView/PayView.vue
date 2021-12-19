@@ -14,7 +14,7 @@
     <!-- todo(修改) -->
     <aside>
       公布對象:
-      <span v-for="item in PayData.classList">{{ item }}、</span>
+      <span v-for="item in PayData.classList" :key="item">{{ item }}、</span>
     </aside>
     <el-table
       :data="PayData.payList"

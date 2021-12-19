@@ -15,7 +15,8 @@
       <el-table-column label="姓名" prop="name" />
       <el-table-column label="出席">
         <el-table-column label="出席">
-          <template slot-scope="scope">
+          <template slot-scope="">
+            <!-- <template slot-scope="scope"> -->
             <el-radio
               v-model="AttendanceData.rollcall.attend"
               label="1"
@@ -23,7 +24,8 @@
           </template>
         </el-table-column>
         <el-table-column label="未到">
-          <template slot-scope="scope">
+          <template slot-scope="">
+            <!-- <template slot-scope="scope"> -->
             <el-radio
               v-model="AttendanceData.rollcall.attend"
               label="2"

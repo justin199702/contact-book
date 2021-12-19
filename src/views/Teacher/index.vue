@@ -28,7 +28,8 @@
             :formatter="SubSpace"
           />
           <el-table-column label="操作">
-            <template slot-scope="scope">
+            <template slot-scope="">
+              <!-- <template slot-scope="scope"> -->
               <el-button type="" @click="TeacherView">檢視</el-button>
               <el-button
                 type="primary"
