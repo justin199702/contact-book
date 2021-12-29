@@ -1,5 +1,7 @@
 import request from '@/utils/request'
+// 出勤系統API
 
+// 全出勤記錄列表
 export function getAttendanceList() {
   return request({
     url: '',
@@ -7,6 +9,7 @@ export function getAttendanceList() {
   })
 }
 
+// 創建出勤紀錄
 export function createAttendance(data) {
   return request({
     url: '',
@@ -15,6 +18,7 @@ export function createAttendance(data) {
   })
 }
 
+// 刪除出勤紀錄
 export function deleteAttendance() {
   return request({
     url: '',
@@ -22,6 +26,7 @@ export function deleteAttendance() {
   })
 }
 
+// 更新出勤紀錄
 export function updateAttendance(data) {
   return request({
     url: '',
